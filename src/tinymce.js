@@ -80,7 +80,7 @@ angular.module('ui.tinymce', [])
             });
 
             ed.on('blur', function() {
-              element[0].blur();
+              element.blur();
             });
 
             // Update model when an object has been resized (table, image)
